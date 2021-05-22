@@ -4,8 +4,6 @@ A ready-to-use boilerplate for REST API Development with Node.js, Express, and M
 
 ## Getting started
 
-This is a basic API skeleton written in JavaScript ES2015. Very useful to building a RESTful web APIs for your front-end platforms like Android, iOS or JavaScript frameworks (Angular, Reactjs, etc).
-
 This project will run on **NodeJs** using **MongoDB** as database. I had tried to maintain the code structure easy as any beginner can also adopt the flow and start building an API. Project is open for suggestions, Bug reports and pull requests.
 
 ## Advertise for Job/Work Contract
@@ -14,8 +12,8 @@ I am open for a good job or work contract. You can contact me directly on my ema
 
 ## Software Requirements
 
-- Node.js **8+**
-- MongoDB **3.6+** (Recommended **4+**)
+- Node.js **v14.17.0**
+- MongoDB **v4.4.6**
 
 ## How to install
 
