@@ -93,35 +93,3 @@ If you need to add more routes to the project just create a new file in `/routes
 ### Creating new controllers
 
 If you need to add more controllers to the project just create a new file in `/controllers/` and use them in the routes.
-
-## Tests
-
-### Running Test Cases
-
-```bash
-npm test
-```
-
-You can set custom command for test at `package.json` file inside `scripts` property. You can also change timeout for each assertion with `--timeout` parameter of mocha command.
-
-### Creating new tests
-
-If you need to add more test cases to the project just create a new file in `/test/` and run the command.
-
-## ESLint
-
-### Running Eslint
-
-```bash
-npm run lint
-```
-
-You can set custom rules for eslint in `.eslintrc.json` file, Added at project root.
-
-## Bugs or improvements
-
-Every project needs improvements, Feel free to report any bugs or improvements. Pull requests are always welcome.
-
-## License
-
-This project is open-sourced software licensed under the MIT License. See the LICENSE file for more information.
