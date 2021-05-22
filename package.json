@@ -1,0 +1,23 @@
+{
+  "name": "mongodbproject",
+  "version": "1.0.0",
+  "description": "node js tutorials",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Turhan ŞİT",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.10",
+    "mongose": "0.0.2-security",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.7"
+  }
+}
