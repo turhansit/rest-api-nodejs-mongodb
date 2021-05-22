@@ -10,7 +10,7 @@ This project will run on **NodeJs** using **MongoDB** as database. I had tried t
 
 ## Advertise for Job/Work Contract
 
-I am open for a good job or work contract. You can contact me directly on my email ([maitraysuthar@gmail.com](mailto:turhansit@gmail.com "turhansit@gmail.com")) or you can download my CV from my personal [website](https://github.com/turhansit/).
+I am open for a good job or work contract. You can contact me directly on my email ([turhansit@gmail.com](mailto:turhansit@gmail.com "turhansit@gmail.com")) or you can download my CV from my personal [website](https://github.com/turhansit/).
 
 ## Buy me a Coffee
 
