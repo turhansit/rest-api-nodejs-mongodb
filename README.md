@@ -22,7 +22,7 @@ I am open for a good job or work contract. You can contact me directly on my ema
 1.  Clone the project from github. Change "myproject" to your project name.
 
 ```bash
-git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproject
+git clone https://github.com/turhansit/rest-api-nodejs-mongodb.git ./myproject
 ```
 
 ### Using manual download ZIP
@@ -72,13 +72,13 @@ npm run dev
 You will know server is running by checking the output of the command `npm run dev`
 
 ```bash
-Connected to mongodb:YOUR_DB_CONNECTION_STRING
+Connected to mongodb:db_connect
 App is running ...
 
 Press CTRL + C to stop the process.
 ```
 
-**Note:** `YOUR_DB_CONNECTION_STRING` will be your MongoDB connection string.
+**Note:** `db_connect` will be your MongoDB connection string.
 
 ### Creating new models
 
@@ -86,8 +86,5 @@ If you need to add more models to the project just create a new file in `/models
 
 ### Creating new routes
 
-If you need to add more routes to the project just create a new file in `/routes/` and add it in `/routes/api.js` it will be loaded dynamically.
+If you need to add more routes to the project just create a new file in `/routes/` and add it in `/routes/post.js` it will be loaded dynamically.
 
-### Creating new controllers
-
-If you need to add more controllers to the project just create a new file in `/controllers/` and use them in the routes.
