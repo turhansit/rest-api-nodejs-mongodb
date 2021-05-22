@@ -1,6 +1,5 @@
 # Nodejs Expressjs MongoDB Ready-to-use API Project Structure
 
-[![Author](http://img.shields.io/badge/author-@maitraysuthar-blue.svg)](https://www.linkedin.com/in/turhansit/)
 A ready-to-use boilerplate for REST API Development with Node.js, Express, and MongoDB
 
 ## Getting started
