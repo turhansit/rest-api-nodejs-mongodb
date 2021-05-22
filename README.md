@@ -6,10 +6,6 @@ A ready-to-use boilerplate for REST API Development with Node.js, Express, and M
 
 This project will run on **NodeJs** using **MongoDB** as database. I had tried to maintain the code structure easy as any beginner can also adopt the flow and start building an API. Project is open for suggestions, Bug reports and pull requests.
 
-## Advertise for Job/Work Contract
-
-I am open for a good job or work contract. You can contact me directly on my email ([turhansit@gmail.com](mailto:turhansit@gmail.com "turhansit@gmail.com")) or you can download my CV from my personal [website](https://github.com/turhansit/).
-
 ## Software Requirements
 
 - Node.js **v14.17.0**
