@@ -55,33 +55,12 @@ npm install
 .
 ├── app.js
 ├── package.json
-├── bin
-│   └── www
-├── controllers
-│   ├── AuthController.js
-│   └── BookController.js
+├── package-lock.json
+├── .env
 ├── models
-│   ├── BookModel.js
-│   └── UserModel.js
+│   ├── post.js
 ├── routes
-│   ├── api.js
-│   ├── auth.js
-│   └── book.js
-├── middlewares
-│   ├── jwt.js
-├── helpers
-│   ├── apiResponse.js
-│   ├── constants.js
-│   ├── mailer.js
-│   └── utility.js
-├── test
-│   ├── testConfig.js
-│   ├── auth.js
-│   └── book.js
-└── public
-    ├── index.html
-    └── stylesheets
-        └── style.css
+│   ├── post.js
 ```
 
 ## How to run
