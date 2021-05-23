@@ -58,11 +58,11 @@ router.patch('/update-data/:Id', async (request, response) => {
         const updatedPost = await Post.updateOne({
             _id: request.params.Id
         }, {
-            $set: { title: request.body.title }
-        }, {
-            $set: { description: request.body.description }
-        }, {
-            $set: { short: request.body.short }
+            $set: {
+                title: request.body.title,
+                description: request.body.description,
+                short: request.body.short
+            }
         });
         response.json(updatedPost);
     } catch (err) {
@@ -77,11 +77,11 @@ router.patch('/update-data-with-request', async (request, response) => {
         const updatedPost = await Post.updateOne({
             _id: request.body.Id
         }, {
-            $set: { title: request.body.title }
-        }, {
-            $set: { description: request.body.description }
-        }, {
-            $set: { short: request.body.short }
+            $set: {
+                title: request.body.title,
+                description: request.body.description,
+                short: request.body.short
+            }
         });
         response.json(updatedPost);
     } catch (err) {
