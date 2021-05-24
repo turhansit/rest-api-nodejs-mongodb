@@ -16,7 +16,7 @@ mongoose.connect(process.env.db_connect, {
   }).then((result) => console.log('connect to db'))
   .catch((err) => console.log(err));
 // Routes
-app.get('/', (req, res) => {
+app.get('/health-check', (req, res) => {
   res.send('Hello MongoDB and Node.js Worlds');
 });
 
