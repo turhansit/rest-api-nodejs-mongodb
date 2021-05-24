@@ -14,6 +14,35 @@ router.get('/get-data', async (request, response) => {
     }
 });
 
+router.get('/get-query-data', async (request, response) => {
+    try {
+        const post = await Post.find({
+            "description": request.body.description
+        });
+        response.json(post);
+    } catch (err) {
+        response.json({
+            mesaage: err
+        });
+    }
+
+});
+
+router.get('/get-count', async (request, response) => {
+    try {
+        const post = await Post.find({
+            "_id": request.body.Id,
+            "description": request.body.description
+        }).countDocuments();
+        response.json(post);
+    } catch (err) {
+        response.json({
+            mesaage: err
+        });
+    }
+
+});
+
 router.post('/post-data', (request, response) => {
     const post = new Post({
         title: request.body.title,
